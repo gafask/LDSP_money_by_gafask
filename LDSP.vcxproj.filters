@@ -21,9 +21,6 @@
     <ClInclude Include="Okno1.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Funktiot_Grafiki.h">
-      <Filter>Исходные файлы</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LDSP.rc">
@@ -34,5 +31,8 @@
     <ClCompile Include="Okno1.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
